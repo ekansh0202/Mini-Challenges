@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.value{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    margin-bottom: 30px;
+}
+
+button{
+    height: 50px;
+    width: 60px;
+    border: none;
+    background-color: rgb(127, 247, 237);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.reset{
+    margin-top: 20px;
+}
